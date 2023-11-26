@@ -151,8 +151,7 @@ body {
         text-align: center;
     }
 
-    .finaal {
-        display: flex;
+    .finaal, .textoultimo {
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -326,7 +325,7 @@ li {
 .finaal {
     font-family: 'Poppins', sans-serif;
     color: #03001e;
-    max-width: 100%;
+    font-weight: bolder;
 }
 
 .textoultimo {
