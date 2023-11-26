@@ -13,6 +13,9 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 .yagofontanez {
@@ -22,8 +25,9 @@ body {
     font-size: 36px;
     justify-content: center;
     display: flex;
-    padding: 3px;
-    margin: 3px;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
 }
 
 .details {
@@ -34,11 +38,17 @@ body {
     background: linear-gradient(90deg, rgba(123,0,0,1) 0%, rgba(188,41,41,1) 57%, rgba(228,81,81,1) 100%);
     display: flex;
     color: white;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 .detail {
     margin-top: -8px;
     font-weight: 300;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 .links {
@@ -46,7 +56,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 0px;
+    margin: 0;
+    max-width: 100%;
 }
 
 .git, .link {
@@ -56,15 +68,95 @@ body {
     display: flex;
     justify-content: center;
     color: white;
+    max-width: 100%;
 }
 
 .git:hover, .link:hover {
     color: rgba(123, 0, 0, 1);
+    margin: 10;
+    padding: 10;
+    max-width: 100%;
 }
 
 .nav {
     background: linear-gradient(90deg, rgba(123,0,0,1) 0%, rgba(188,41,41,1) 57%, rgba(228,81,81,1) 100%);
     padding: 10px;
+    margin: 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin:0;
+        padding: 0;
+        display: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textonav {
+        margin-top: 5px;
+    }
+
+    .detail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .yagofontanez {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .h2, .h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .facul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nomeprojeto1, .nomeprojeto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .fotoprojeto {
+        width: 500px;
+    }
+
+    #curso, .nomecurso, .instituicao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .finaal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 .textnav, .quemsoueu, .formacao, .projetos, .cursos {
@@ -72,28 +164,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
     font-family: 'Poppins';
     font-weight: bolder;
     margin-top: -13px;
     text-decoration: none;
+    max-width: 100%;
 }
 
 .quemsoueu:hover, .formacao:hover, .projetos:hover, .cursos:hover {
     color: rgba(123, 0, 0, 1);
+    margin: 10;
+    padding: 10;
+    max-width: 100%;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    max-width: 100%;
 }
 
 li {
     text-decoration: none;
-    padding: 10px;
+    padding: 0px;
     margin-bottom: 0px;
+    max-width: 100%;
 }
 
 .foto {
@@ -102,11 +200,13 @@ li {
     justify-content: center;
     margin-top: 50px;
     border-radius: 20px 7px 20px 7px;
+    max-width: 100%;
 }
 
 .photo {
     border-radius: 10px 100px / 120px 100px;
     box-shadow: 5px 5px 10px #bc2929;
+    max-width: 100%;
 }
 
 
@@ -117,11 +217,13 @@ li {
     position: relative;
     text-align: center;
     margin-bottom: 150px;
+    max-width: 100%;
 }
 
 .h2, .h3 {
     color: #bc2929;
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
 }
 
 .facul {
@@ -131,12 +233,14 @@ li {
     align-items: center;
     justify-content: center;
     text-align: center;
+    max-width: 100%;
 }
 
 .logofacul {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
 }
 
 
@@ -145,16 +249,20 @@ li {
     align-items: center;
     display: flex;
     margin-top: 50px;
+    max-width: 100%;
   }
 
   .fotoprojeto {
     max-width: 50%;
     height: auto;
     transition: transform 0.3s ease-in-out;
+    max-width: 100%;
+    width: 800px;
   }
 
   .fotoprojeto:hover {
     transform: scale(1.1);
+    max-width: 100%;
   }
 
 
@@ -165,6 +273,7 @@ li {
     font-family: 'Poppins', sans-serif;
     color:#bc2929;
     text-align: center;
+    max-width: 100%;
 }
 
 .nomeprojeto1 {
@@ -174,6 +283,7 @@ li {
     font-family: 'Poppins', sans-serif;
     color:#bc2929;
     margin-top: 150px;
+    max-width: 100%;
 }
 
 .fotoprojeto {
@@ -183,6 +293,7 @@ li {
     margin: auto;
     box-shadow: 5px 5px 10px #bc2929;
     border-radius: 24px;
+    max-width: 100%;
 }
 
 
@@ -192,25 +303,30 @@ li {
     align-items: center;
     justify-content: center;
     margin-top: -8px;
+    max-width: 100%;
 }
 
 
 .gitehub:hover, .linkes:hover {
     color:rgba(123, 0, 0, 1);
+    max-width: 100%;
 }
 
 #final {
     margin-bottom: 100px;
+    max-width: 100%;
 }
 
 .linkes {
     color:#bc2929;
     text-decoration: none;
+    max-width: 100%;
 }
 
 .finaal {
     font-family: 'Poppins', sans-serif;
     color: #03001e;
+    max-width: 100%;
 }
 
 .textoultimo {
@@ -220,6 +336,7 @@ li {
     color:#03001e;
     font-weight: bolder;
     margin-bottom: 40px;
+    max-width: 100%;
 }
 
 
@@ -229,6 +346,8 @@ li {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     color:#bc2929;
+    max-width: 100%;
+    text-align: center;
 }
 
 .curso {
@@ -236,6 +355,8 @@ li {
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+    max-width: 100%;
+    text-align: center;
 }
 
 .instituicao {
@@ -246,6 +367,7 @@ li {
     color:#bc2929;
     font-weight: bolder;
     margin-top: -29px;
+    max-width: 100%;
 }
 
 .nomecurso {
@@ -254,4 +376,5 @@ li {
     align-items: center;
     font-family: 'Poppins', sans-serif;
     color:#7b0000;
+    max-width: 100%;
 }
