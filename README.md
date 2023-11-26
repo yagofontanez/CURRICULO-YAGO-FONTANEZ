@@ -2,3 +2,6 @@ Tenho 18 anos e sou estudante de Sistemas de Informação em Bauru-SP, sou Desig
 
 
 Este é meu Currículo e Portifólio desenvolvido inteiramente em HTML e CSS :)
+
+
+https://yagofontanez.netlify.app/
