@@ -7,7 +7,7 @@ body {
 }
 
 .cabecalho {
-    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+    background: linear-gradient(90deg, rgba(123,0,0,1) 0%, rgba(188,41,41,1) 57%, rgba(228,81,81,1) 100%);
     background-color: white;
     width: 100%;
     justify-content: center;
@@ -31,7 +31,7 @@ body {
     font-family: 'Poppins', 'sans serif';
     font-size: 16px;
     justify-content: center;
-    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+    background: linear-gradient(90deg, rgba(123,0,0,1) 0%, rgba(188,41,41,1) 57%, rgba(228,81,81,1) 100%);
     display: flex;
     color: white;
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .links {
-    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+    background: linear-gradient(90deg, rgba(123,0,0,1) 0%, rgba(188,41,41,1) 57%, rgba(228,81,81,1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,11 +59,11 @@ body {
 }
 
 .git:hover, .link:hover {
-    color: rgba(121, 7, 79, 0.416);
+    color: rgba(123, 0, 0, 1);
 }
 
 .nav {
-    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+    background: linear-gradient(90deg, rgba(123,0,0,1) 0%, rgba(188,41,41,1) 57%, rgba(228,81,81,1) 100%);
     padding: 10px;
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 .quemsoueu:hover, .formacao:hover, .projetos:hover, .cursos:hover {
-    color: rgba(121, 7, 79, 0.416);
+    color: rgba(123, 0, 0, 1);
 }
 
 ul {
@@ -106,7 +106,7 @@ li {
 
 .photo {
     border-radius: 10px 100px / 120px 100px;
-    box-shadow: 5px 5px 10px #7303c0;
+    box-shadow: 5px 5px 10px #bc2929;
 }
 
 
@@ -120,13 +120,13 @@ li {
 }
 
 .h2, .h3 {
-    color: #03001e;
+    color: #bc2929;
     font-family: 'Poppins', sans-serif;
 }
 
 .facul {
     font-family: 'Poppins', sans-serif;
-    color:#7303c0;
+    color:#bc2929;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +163,7 @@ li {
     align-items: center;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    color:#ec38bc;
+    color:#bc2929;
     text-align: center;
 }
 
@@ -172,7 +172,7 @@ li {
     align-items: center;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    color:#ec38bc;
+    color:#bc2929;
     margin-top: 150px;
 }
 
@@ -181,13 +181,13 @@ li {
     align-items: center;
     justify-content: center;
     margin: auto;
-    box-shadow: 5px 5px 10px #ec38bc;
+    box-shadow: 5px 5px 10px #bc2929;
     border-radius: 24px;
 }
 
 
 .gitehub {
-    color:#ec38bc;
+    color:#bc2929;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,7 +196,7 @@ li {
 
 
 .gitehub:hover, .linkes:hover {
-    color:rgba(121, 7, 79, 0.416);
+    color:rgba(123, 0, 0, 1);
 }
 
 #final {
@@ -204,7 +204,7 @@ li {
 }
 
 .linkes {
-    color:#ec38bc;
+    color:#bc2929;
     text-decoration: none;
 }
 
@@ -228,7 +228,7 @@ li {
     align-items: center;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    color:#03001e;
+    color:#bc2929;
 }
 
 .curso {
@@ -243,7 +243,7 @@ li {
     align-items: center;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    color:#ec38bc;
+    color:#bc2929;
     font-weight: bolder;
     margin-top: -29px;
 }
@@ -253,5 +253,5 @@ li {
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    color:#7303c0;
+    color:#7b0000;
 }
