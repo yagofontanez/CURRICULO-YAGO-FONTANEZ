@@ -400,3 +400,17 @@ li {
     justify-content: center;
     text-align: center;
 }
+
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #7b0000;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bc2929;
+  }
