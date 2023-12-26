@@ -9,6 +9,9 @@
     font-family: 'Overpass', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
 
 .nav {
     display: flex;
