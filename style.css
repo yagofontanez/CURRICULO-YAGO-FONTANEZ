@@ -625,3 +625,43 @@ video {
     width: 350px;
     height: 260px;
 }
+
+
+.tooltip-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000a8;
+    height: 50px;
+    margin-top: 150px;
+  }
+
+  #voltar-pag {
+    color: #0000a8;
+    font-size: 4rem;
+    position: relative;
+    top: -28px;
+    bottom: 0;
+    margin: 0;
+  }
+
+
+
+  
+  .tooltip {
+    display: none;
+    position: absolute;
+    background-color: #0000a8;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .elemento:hover + .tooltip {
+    display: block;
+  }
+  
