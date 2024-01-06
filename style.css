@@ -665,3 +665,13 @@ video {
     display: block;
   }
   
+
+  #codante {
+    font-size: 16px;
+    color: #0000a8;
+    transition: 0.3s ease;
+  }
+
+  #codante:hover {
+    color: #000045;
+ }
