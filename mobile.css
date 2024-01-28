@@ -1,0 +1,135 @@
+@media only screen and (max-width: 768px) {
+    .logo-e-navbar {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    #icon-menu {
+        display: flex;
+    }
+
+    .lado-direito-primeira-dobra {
+        display: none;
+    }
+
+    #mudar {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .lado-esquerdo-primeira-dobra {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #items {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #items i {
+        display: none;
+    }
+
+    #items p {
+        font-size: 12px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coluna-um, .coluna-dois {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 250px;
+        text-align: center;
+    }
+
+    .container img {
+        width: 200px;
+    }
+
+
+    .container h3 {
+        font-size: 12px;
+    }
+
+
+    #icon-skill-html, #icon-skill-css, #icon-skill-javascript, #icon-skill-nodejs, #icon-skill-mongodb, #icon-skill-git {
+        font-size: 26px;
+    }
+
+    .icones-skills-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .terceira-dobra p {
+        font-size: 16px;
+    }
+
+    .textos-iniciais-faculdade {
+        text-align: center;
+    }
+
+    .textos-iniciais-faculdade h2 {
+        font-size: 14px;
+    }
+
+    .container-materias {
+        display: none;
+    }
+
+    .nomes-cursos {
+        text-align: left;
+        padding: 5px;
+    }
+
+    .nomes-cursos h2 {
+        font-size: 12px;
+    }
+
+    #entre-em-contato {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        width: 100%;
+    }
+
+    .primeira-dobra {
+        max-width: 900px;
+        padding: 20px;
+    }
+
+    .lado-direito-primeira-dobra img {
+        width: 220px;
+    }
+
+    .container-materias {
+        display: none;
+    }
+}
