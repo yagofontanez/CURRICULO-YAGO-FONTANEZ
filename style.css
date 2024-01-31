@@ -228,13 +228,162 @@ a {
     align-items: center;
     justify-content: space-evenly;
     gap: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(15px);
     border: 2px solid #00f0ff;
     border-radius: 15px;
-    padding: 15px;
     transition: all 0.5s ease;
+    position: relative;
+    background: transparent;
+    overflow: hidden;
+    padding: 10px;
+    border-top: 1px solid #008690;
+    border-right: 1px solid #008690;
+    border-bottom: 1px solid #008690;
+    border-left: 1px solid #008690;
 }
+
+
+
+
+.top {
+    position: absolute;
+    border-radius: 100vmax;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background: linear-gradient(
+      90deg,
+      transparent 50%,
+      #00f0ff,
+      #00f0ff
+    );
+  }
+  
+  .bottom {
+    position: absolute;
+    border-radius: 100vmax;
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    background: linear-gradient(
+      90deg,
+      #00f0ff,
+      #00f0ff,
+      transparent 50%
+    );
+  }
+  
+  .right {
+    position: absolute;
+    border-radius: 100vmax;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 0;
+    background: linear-gradient(
+      180deg,
+      transparent 30%,
+      #00f0ff,
+      #00f0ff
+    );
+  }
+  
+  .left {
+    position: absolute;
+    border-radius: 100vmax;
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    height: 0;
+    background: linear-gradient(
+      180deg,
+      #00f0ff,
+      #00f0ff,
+      transparent 70%
+    );
+  }
+  
+  .top {
+    animation: animateTop 3s ease-in-out infinite;
+  }
+  
+  .bottom {
+    animation: animateBottom 3s ease-in-out infinite;
+  }
+  
+  .right {
+    animation: animateRight 3s ease-in-out infinite;
+  }
+  
+  .left {
+    animation: animateLeft 3s ease-in-out infinite;
+  }
+  
+  @keyframes animateTop {
+    25% {
+      width: 100%;
+      opacity: 1;
+    }
+  
+    30%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes animateBottom {
+    0%,
+    50% {
+      opacity: 0;
+      width: 0;
+    }
+  
+    75% {
+      opacity: 1;
+      width: 100%;
+    }
+  
+    76%,
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes animateRight {
+    0%,
+    25% {
+      opacity: 0;
+      height: 0;
+    }
+  
+    50% {
+      opacity: 1;
+      height: 100%;
+    }
+  
+    55%,
+    100% {
+      height: 100%;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes animateLeft {
+    0%,
+    75% {
+      opacity: 0;
+      bottom: 0;
+      height: 0;
+    }
+  
+    100% {
+      opacity: 1;
+      height: 100%;
+    }
+  }
+
+
+
 
 .container:hover {
     border-color: #fff;
