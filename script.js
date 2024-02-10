@@ -15,44 +15,56 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.querySelector("#icon-skill-html").addEventListener("mouseover", function() {
     document.querySelector("#html").style.display = 'flex';
+    document.querySelector("#html").style.transition = '0.3s';
 });
 document.querySelector("#icon-skill-html").addEventListener("mouseout", function() {
     document.querySelector("#html").style.display = 'none';
+    document.querySelector("#html").style.transition = '0.3s';
 });
 
 document.querySelector("#icon-skill-css").addEventListener("mouseover", function() {
     document.querySelector("#css").style.display = 'flex';
+    document.querySelector("#css").style.transition = '0.3s';
 });
 document.querySelector("#icon-skill-css").addEventListener("mouseout", function() {
     document.querySelector("#css").style.display = 'none';
+    document.querySelector("#css").style.transition = '0.3s';
 });
 
 document.querySelector("#icon-skill-javascript").addEventListener("mouseover", function() {
     document.querySelector("#javascript").style.display = 'flex';
+    document.querySelector("#javascript").style.transition = '0.3s';
 });
 document.querySelector("#icon-skill-javascript").addEventListener("mouseout", function() {
     document.querySelector("#javascript").style.display = 'none';
+    document.querySelector("#javascript").style.transition = '0.3s';
 });
 
 document.querySelector("#icon-skill-nodejs").addEventListener("mouseover", function() {
     document.querySelector("#nodejs").style.display = 'flex';
+    document.querySelector("#nodejs").style.transition = '0.3s';
 });
 document.querySelector("#icon-skill-nodejs").addEventListener("mouseout", function() {
     document.querySelector("#nodejs").style.display = 'none';
+    document.querySelector("#nodejs").style.transition = '0.3s';
 });
 
 document.querySelector("#icon-skill-mongodb").addEventListener("mouseover", function() {
     document.querySelector("#mongodb").style.display = 'flex';
+    document.querySelector("#mongodb").style.transition = '0.3s';
 });
 document.querySelector("#icon-skill-mongodb").addEventListener("mouseout", function() {
     document.querySelector("#mongodb").style.display = 'none';
+    document.querySelector("#mongodb").style.transition = '0.3s';
 });
 
 document.querySelector("#icon-skill-git").addEventListener("mouseover", function() {
     document.querySelector("#git").style.display = 'flex';
+    document.querySelector("#git").style.transition = '0.3s';
 });
 document.querySelector("#icon-skill-git").addEventListener("mouseout", function() {
     document.querySelector("#git").style.display = 'none';
+    document.querySelector("#git").style.transition = '0.3s';
 });
 
 
