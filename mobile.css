@@ -85,6 +85,10 @@
         flex-wrap: wrap;
     }
 
+    .nomes-skills {
+        display: none;
+    }
+
     .terceira-dobra p {
         font-size: 16px;
     }
@@ -113,6 +117,8 @@
     #entre-em-contato {
         font-size: 10px;
     }
+
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
