@@ -139,3 +139,20 @@
         display: none;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    .logo-e-navbar {
+        display: flex;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px;
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        z-index: 5000000;
+        height: 20px;
+    }
+}
