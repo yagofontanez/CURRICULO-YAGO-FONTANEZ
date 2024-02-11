@@ -84,3 +84,15 @@ document.querySelector("#icon-menu").addEventListener("click", function() {
         iconMenu.style.color = '#00f0ff';
     }
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const btnLink = document.querySelector('#btnCima');
+    btnLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});
